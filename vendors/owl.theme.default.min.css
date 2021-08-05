@@ -54,10 +54,26 @@
 
 /*custom code*/
 .carousel-wrap {
-  width: 300px;
+  width: auto;
   margin: auto;
   position: relative;
-  max-width: 100%;
+  max-width: 80%;
+}
+.carousel-wrap .owl-carousel {
+  position: relative;
+}
+.carousel-wrap .owl-carousel .owl-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-wrap .owl-carousel .owl-nav .nav-btn {
+  position: relative;
 }
 .carousel-wrapper {
   width: auto;
@@ -82,7 +98,7 @@
   position: absolute;
   width: 38px;
   cursor: pointer;
-  top: 2.5px !important;
+  top: 33% !important;
 }
 .owl-carousel .nav-btn--video {
   height: 34px;
@@ -100,7 +116,7 @@
 
 .owl-carousel .prev-slide {
   background: url(../images/caret-left.png) no-repeat scroll 0 0;
-  left: -30px;
+  left: -50px;
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -114,7 +130,7 @@
 }
 .owl-carousel .next-slide {
   background: url(../images/caret-right.png) no-repeat scroll 0px 0px;
-  right: -30px;
+  right: -50px;
   display: inline-block;
   width: 25px;
   height: 25px;

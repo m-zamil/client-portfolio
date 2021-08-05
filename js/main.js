@@ -13,9 +13,15 @@ $(document).ready(function () {
     ],
     responsive: {
       0: {
-        items: 3,
+        items: 4,
       },
-      350: {
+      380: {
+        items: 4,
+      },
+      520: {
+        items: 5,
+      },
+      768: {
         items: 6,
       },
     },

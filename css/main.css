@@ -168,11 +168,13 @@ header {
 
 /*owl resets*/
 .work .owl-carousel img.work--img {
-  width: 30px;
+  max-width: 125px;
+  width: 100%;
 }
 .owl-carousel .item {
-  width: 30px;
+  max-width: 150px;
   margin: 0 auto;
+  width: 100%;
 }
 .owl-stage {
   margin: 0 auto;
@@ -186,7 +188,6 @@ header {
 }
 .owl-stage {
   display: flex;
-  justify-content: center;
 }
 
 /*---------------Responsive layout------------*/
