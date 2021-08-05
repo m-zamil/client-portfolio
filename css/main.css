@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../fonts/Sofia-Pro-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../fonts/Sofia-Pro-Semi-Bold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../fonts/Sofia-Pro-Bold.otf");
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Sofia Pro;
+}
+img {
+  width: 100%;
+}
+h2 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: 1440px;
+}
+header {
+  padding-top: 32px;
+  text-align: center;
+  padding-bottom: 110px;
+}
+.logo {
+  display: none;
+  max-width: 250px;
+}
+.logo-mobile {
+  max-width: 50px;
+  margin: 0 auto;
+}
+.hero-wrapper {
+  padding-bottom: 26px;
+}
+.hero-img-wrapper {
+  padding-bottom: 25px;
+}
+.hero-img {
+  margin: 0 auto;
+  text-align: center;
+}
+.hero--img {
+  text-align: center;
+  width: 100%;
+}
+.hero-img {
+  position: relative;
+  width: 316px;
+  height: 211px;
+}
+.purple-circle {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
+  background: #f53030;
+  filter: blur(205px);
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.hero-title-wrapper {
+  text-align: center;
+}
+.hero--subtitle {
+  font-size: 14px;
+  color: #ababab;
+}
+.hero--text {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/*my work*/
+.work {
+  text-align: center;
+  padding-bottom: 34px;
+}
+.work--title {
+  margin-bottom: 27px;
+}
+
+/*what can we do section*/
+.services--title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.card {
+  background: #414141;
+  border-radius: 28px;
+  padding: 18px;
+}
+.card ul {
+  list-style-image: url(images/bullet.png);
+}
+/*owl resets*/
+.work .owl-carousel img.work--img {
+  width: 30px;
+}
+.owl-carousel .item {
+  width: 30px;
+}
+.owl-stage {
+  margin: 0 auto;
+}
+/*---------------Responsive layout------------*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo-mobile {
+    display: none;
+  }
+  .logo {
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, 834px and up) */
+@media only screen and (min-width: 834px) {
+}
