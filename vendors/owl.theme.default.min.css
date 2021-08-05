@@ -57,7 +57,7 @@
   width: auto;
   margin: auto;
   position: relative;
-  max-width: 80%;
+  max-width: 75%;
 }
 .carousel-wrap .owl-carousel {
   position: relative;
@@ -98,7 +98,7 @@
   position: absolute;
   width: 38px;
   cursor: pointer;
-  top: 33% !important;
+  /* top: 33% !important; */
 }
 .owl-carousel .nav-btn--video {
   height: 34px;
