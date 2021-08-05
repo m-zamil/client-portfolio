@@ -27,7 +27,7 @@ img {
   width: 100%;
 }
 h2 {
-  font-size: 18px;
+  font-size: 26px;
   line-height: 1.5;
 }
 
@@ -72,7 +72,6 @@ header {
 .hero-img {
   position: relative;
   width: 316px;
-  height: 211px;
   max-width: 100%;
 }
 .purple-circle {
@@ -108,23 +107,26 @@ header {
   padding-bottom: 34px;
 }
 .work--title {
-  margin-bottom: 27px;
+  margin: 50px;
 }
 
 /*what can we do section*/
 .services--title {
   text-align: center;
-  margin-bottom: 60px;
+  margin: 50px;
 }
 .card-wrapper {
   padding: 30px;
   padding-bottom: 12px;
+  margin: 0 auto;
 }
 .card {
   background: #414141;
   border-radius: 28px;
   padding: 18px;
+  margin: 0 auto;
   margin-bottom: 30px;
+  max-width: 540px;
 }
 .card ul {
   list-style-image: url(../images/bullet.png);
@@ -188,7 +190,7 @@ header {
   height: 250px;
 }
 .owl-carousel.video {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .owl-stage {
@@ -198,15 +200,85 @@ header {
 /*---------------Responsive layout------------*/
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    margin: 60px 72px;
+  }
   .logo-mobile {
     display: none;
   }
   .logo {
     display: block;
+    max-width: 174px;
+  }
+  header {
+    padding-top: 0;
+  }
+  .hero-img {
+    width: 486px;
+  }
+  .hero {
+    max-width: 486px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .hero-title-wrapper {
+    position: absolute;
+    top: 52px;
+    left: -40px;
+    text-align: left;
+  }
+  .hero-text-wrapper {
+    position: absolute;
+    bottom: 15px;
+    right: -118px;
+    text-align: left;
+  }
+  .hero--text {
+    text-align: left;
+  }
+  .card {
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+  .card li {
+    font-size: 18px;
   }
 }
 
-/* Medium devices (landscape tablets, 834px and up) */
-@media only screen and (min-width: 834px) {
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hero-img {
+    width: 670px;
+  }
+  .hero {
+    max-width: 670px;
+  }
+  .hero-title-wrapper {
+    top: 120px;
+    left: 10px;
+  }
+  .hero-text-wrapper {
+    right: -90px;
+  }
+  header {
+    padding-bottom: 0px;
+  }
+  .work--title {
+    margin-top: 0px;
+  }
+  .hero-wrapper {
+    padding-bottom: 20px;
+  }
+  .card {
+    padding: 40px;
+  }
+  .card li {
+    font-size: 22px;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }

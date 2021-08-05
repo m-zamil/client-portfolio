@@ -30,7 +30,7 @@ $(document).ready(function () {
     items: 1,
     merge: false,
     loop: false,
-    margin: 10,
+    margin: 15,
     video: true,
     dots: false,
     nav: true,
@@ -40,7 +40,7 @@ $(document).ready(function () {
     ],
     lazyLoad: false,
     video: true,
-    videoWidth: 300,
+    videoWidth: 200,
 
     center: false,
     responsive: {

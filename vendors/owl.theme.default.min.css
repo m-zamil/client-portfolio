@@ -71,6 +71,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: -1;
 }
 .carousel-wrap .owl-carousel .owl-nav .nav-btn {
   position: relative;
@@ -123,7 +124,7 @@
 }
 .owl-carousel .prev-slide--video {
   background: url(../images/arrow-left.png) no-repeat scroll 0 0;
-  left: -30px;
+  left: -50px;
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -137,11 +138,21 @@
 }
 .owl-carousel .next-slide--video {
   background: url(../images/arrow-right.png) no-repeat scroll 0px 0px;
-  right: -30px;
+  right: -50px;
   display: inline-block;
   width: 25px;
   height: 25px;
 }
+
+@media only screen and (max-width: 992px) {
+  .owl-carousel .next-slide--video {
+    right: -30px;
+  }
+  .owl-carousel .prev-slide--video {
+    left: -30px;
+  }
+}
+
 .owl-carousel .prev-slide:hover {
   /* background-position: 0px -53px; */
 }
