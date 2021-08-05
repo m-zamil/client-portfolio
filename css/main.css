@@ -131,8 +131,9 @@ header {
   padding-left: 20px;
 }
 .card li {
-  line-height: 1.7;
+  line-height: 1.4;
   font-size: 14px;
+  padding-bottom: 12px;
 }
 /*Explore*/
 .explore {
