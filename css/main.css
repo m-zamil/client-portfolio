@@ -201,6 +201,10 @@ header {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
+  .purple-circle {
+    width: 320px;
+    height: 320px;
+  }
   .wrapper {
     margin: 60px 72px;
   }
@@ -248,6 +252,13 @@ header {
 
 /* Medium devices (landscape tablets, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .logo {
+    max-width: 215px;
+  }
+  .purple-circle {
+    width: 406px;
+    height: 406px;
+  }
   .hero-img {
     width: 670px;
   }
