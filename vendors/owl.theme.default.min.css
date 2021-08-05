@@ -82,7 +82,7 @@
   position: absolute;
   width: 38px;
   cursor: pointer;
-  top: -10px !important;
+  top: 2.5px !important;
 }
 .owl-carousel .nav-btn--video {
   height: 34px;
@@ -99,8 +99,11 @@
 }
 
 .owl-carousel .prev-slide {
-  background: url(../images/caret-left.svg) no-repeat scroll 0 0;
+  background: url(../images/caret-left.png) no-repeat scroll 0 0;
   left: -30px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
 }
 .owl-carousel .prev-slide--video {
   background: url(../images/arrow-left.png) no-repeat scroll 0 0;
@@ -110,8 +113,11 @@
   height: 25px;
 }
 .owl-carousel .next-slide {
-  background: url(../images/caret-right.svg) no-repeat scroll 0px 0px;
+  background: url(../images/caret-right.png) no-repeat scroll 0px 0px;
   right: -30px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
 }
 .owl-carousel .next-slide--video {
   background: url(../images/arrow-right.png) no-repeat scroll 0px 0px;

@@ -128,6 +128,7 @@ header {
 }
 .card ul {
   list-style-image: url(../images/bullet.png);
+  padding-left: 20px;
 }
 .card li {
   line-height: 1.7;
@@ -170,6 +171,7 @@ header {
 }
 .owl-carousel .item {
   width: 30px;
+  margin: 0 auto;
 }
 .owl-stage {
   margin: 0 auto;
@@ -180,6 +182,10 @@ header {
 .owl-carousel.video {
   width: 90%;
   margin: 0 auto;
+}
+.owl-stage {
+  display: flex;
+  justify-content: center;
 }
 
 /*---------------Responsive layout------------*/
