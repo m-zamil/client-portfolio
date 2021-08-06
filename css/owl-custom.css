@@ -39,3 +39,8 @@
 .owl-dot.active span {
   background-color: #000;
 }
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
