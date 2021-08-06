@@ -28,8 +28,6 @@ $(document).ready(function () {
   });
   $(".owl-carousel.video").owlCarousel({
     items: 1,
-    animateIn: "flipInX",
-    animateOut: "fadeOut",
     merge: true,
     loop: true,
     margin: 15,
