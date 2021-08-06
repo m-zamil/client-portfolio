@@ -28,18 +28,19 @@ $(document).ready(function () {
   });
   $(".owl-carousel.video").owlCarousel({
     items: 1,
-    // merge: false,
-    loop: false,
+    merge: false,
+    loop: 0,
     margin: 15,
     video: true,
     dots: false,
     nav: true,
+    videoWidth: false,
+    videoHeight: false,
     navText: [
       "<div class='nav-btn--video prev-slide--video'></div>",
       "<div class='nav-btn--video next-slide--video'></div>",
     ],
     lazyLoad: false,
-    video: true,
     center: false,
     responsive: {
       0: {
