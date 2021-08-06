@@ -28,7 +28,7 @@ $(document).ready(function () {
   });
   $(".owl-carousel.video").owlCarousel({
     items: 1,
-    merge: false,
+    // merge: false,
     loop: false,
     margin: 15,
     video: true,
@@ -40,8 +40,6 @@ $(document).ready(function () {
     ],
     lazyLoad: false,
     video: true,
-    videoWidth: 200,
-
     center: false,
     responsive: {
       0: {
